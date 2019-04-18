@@ -63,31 +63,39 @@
     display: flex;
     direction: rtl;
     align-items: center; 
-    margin-right: 30%;
-    /* background-color: white; */
+    margin-left: 32%;
+    background-color: white;
     /* width: 30em; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 0.4em;
+    width: 55%;
 }
 
 .fieldset-class1 {
     direction: rtl;
-    margin: 0em;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border: 0.1em solid gray;
-    display: inline-flex;
-    padding: 0.5em;
-    margin-top: -0.5em;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    font-size: 0.6em;
+    width: 80%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: right;
+    border-left: none;
+    margin-bottom: 5px;
 }
 
 .bordered-text {
     display: inline-flex;
-    border: 0.1em solid gray;
-    border-radius: 5%;
-    margin-left: 0.5em;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    margin-left: 0.2em;
     align-items: baseline;
     padding: 0.5em;
     padding-right: 1em;
     padding-left: 1em;
+    font-size: 0.9em;
+    width: 10%;
 }
 
 .text-input {
@@ -97,14 +105,30 @@
 .search-icon {
     border: 0.1em solid gray;
     /* background-color: blueviolet; */
-    background-image: linear-gradient(to right, red,purple);
-    padding: 0.5em;
+    background-image: linear-gradient(to right, red, purple);
+    border: none;
+    padding: 0.7em;
     margin-right: 0em; 
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;
 }
 
 .tehran-text {
     margin: 0em;
     margin-right: 0.4em;
+}
+
+.recent-search{
+    display: inline-block;
+    width: 102%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-left: -15%;
+}
+
+.recent-search-text{
+    color: gray;
 }
