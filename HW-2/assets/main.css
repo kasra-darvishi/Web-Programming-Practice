@@ -60,5 +60,51 @@
 }
 
 .search-bar {
+    display: flex;
+    direction: rtl;
+    align-items: center; 
+    margin-right: 30%;
+    /* background-color: white; */
+    /* width: 30em; */
+}
 
+.fieldset-class1 {
+    direction: rtl;
+    margin: 0em;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 0.1em solid gray;
+    display: inline-flex;
+    padding: 0.5em;
+    margin-top: -0.5em;
+}
+
+.bordered-text {
+    display: inline-flex;
+    border: 0.1em solid gray;
+    border-radius: 5%;
+    margin-left: 0.5em;
+    align-items: baseline;
+    padding: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.text-input {
+    border: 0em;
+}
+
+.search-icon {
+    border: 0.1em solid gray;
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to right, red,purple);
+    padding: 0.5em;
+    margin-right: 0em; 
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.tehran-text {
+    margin: 0em;
+    margin-right: 0.4em;
 }
