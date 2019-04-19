@@ -38,6 +38,7 @@
     background-position: -80% 0;
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: rgb(255, 255, 255);;
 }
 
 .other-sections {
@@ -243,4 +244,47 @@
     padding: 3px;
     padding-right: 11px;
     padding-left: 11px;
+}
+
+.second-restaurant-section {
+    background-image: url("../images/Pizza.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.restaurants-row {
+    display: flex;
+}
+
+.restaurant-container {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 0px;
+    font-size: 0.8em;
+}
+
+.small-rest-name {
+    color: gray;
+    font-weight: bold;
+}
+
+.restaurants-row {
+    display: flex;
+}
+
+#s-r-s-subsection {
+    width: 500px;
+    margin-left: 50%;
+}
+
+#title1 {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 60%;
+    padding-top: 35px;
 }
