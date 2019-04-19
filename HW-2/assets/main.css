@@ -40,6 +40,10 @@
     background-size: contain;
 }
 
+.other-sections {
+    background-color: #f5f5f5;
+}
+
 .text-div1 {
     width: 60%;
     margin-left: 30%;
@@ -66,7 +70,6 @@
     margin-left: 32%;
     background-color: white;
     /* width: 30em; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
     padding: 0.4em;
     width: 55%;
@@ -146,6 +149,7 @@
 }
 
 .guide-section {
+    padding-top: 70px;
     display: flex;
     justify-content: space-around;
     /* direction: rtl; */
@@ -158,7 +162,7 @@
     background-color: white;
     width: 300px;
     height: 80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     align-items: center;
 }
 
@@ -175,11 +179,68 @@
 }
 
 #text-header1 {
-    display: block;
-    width: 100%;
-    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .first-restaurant-section {
-    margin-top: 4em;
+    margin-top: 100px;
+}
+
+.logo-container {
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    align-self: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.restaurant-set {
+    display: flex;
+    max-block-size: 100%;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.restaurant-subset {
+    margin: 20px;
+    width: 270px;
+    height: 230px;
+    align-items: baseline;
+    text-align: center;
+    background-color: white;
+}
+
+.restaurant-name {
+    color: #616161;
+    font-size: 1.1em;
+    margin: 7px;
+    font-weight: bold;
+}
+
+.food-names {
+    color: #757575;
+    font-size: 0.9em;
+    margin: 7px;
+}
+
+.restaurant-address {
+    color: #9e9e9e;
+    font-size: 0.8em;
+    margin: 7px;
+}
+
+.start-order {
+    margin-top: 3px;
+    border: 0.1em solid purple;
+    border-radius: 19px;
+    color: purple;
+    padding: 3px;
+    padding-right: 11px;
+    padding-left: 11px;
 }
