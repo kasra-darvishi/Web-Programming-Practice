@@ -173,3 +173,13 @@
     margin: 20px;
     color: gray;
 }
+
+#text-header1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.first-restaurant-section {
+    margin-top: 4em;
+}

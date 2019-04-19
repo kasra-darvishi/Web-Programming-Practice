@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="../assets/login.css">
     </head>
     <body>
-        
+        <div class="forms">
+            <ul class="tab-group">
+                <li class="tab active"><a href="../src/login.html">ورود</a></li>
+                <li class="tab"><a href="../src/register.html">ثبت نام</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="forms">
+                <form action="#" id="login">
+                    <h1>ورود</h1>
+                    <P>ایمیل و یا شماره تلفن خود را وارد کنید</P>
+                    <div class="input-field">
+                        <input type="email" name="email" placeholder="ایمیل یا شماره همراه" required="email"/>
+                        <input type="password" name="password" placeholder="رمز ورود" required/>
+                        <p class="text-p"><a href="#">رمز عبور خود را فراموش کردم</a></p>
+                        <input type="submit" value="ورود" class="button"/>
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
