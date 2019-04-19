@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 body {
@@ -15,7 +13,6 @@ body {
     margin: 0 auto;
     max-width: 500px;
     overflow: hidden;
-    position: relative;
 }
 .forms h1 {
     padding: 20px 0 15px 0;
@@ -52,10 +49,6 @@ body {
     width: 50%;
     text-align: center;
     border-top: 3px solid transparent;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
 }
 .forms .tab-group li a:hover {
     background: #dedfdf;
@@ -75,10 +68,6 @@ body {
     color: #666;
     border-radius: 0;
     margin-bottom: 10px;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
     text-align: right;
 }
 .forms #reg_tel {
@@ -112,10 +101,6 @@ body {
     background: #850c7f;
     color: #ffffff;
     cursor: pointer;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
     text-align: center;
 }
 .forms .button:hover, .button:focus { background: #f50c7f; }
