@@ -67,12 +67,12 @@ $.get('http://demo2469824.mockable.io/foods', function(data, status) {
         for(i=4; i < food_xml.length; i++){
             var food_data = food_xml[i];
             name = food_data.getElementsByTagName('name').item(0).innerHTML;
-            $('.food-buttons').append(get_food_type_small_element(name))
+            $('.food-buttons').append(food_btn_element(name))
         }
     }
 });
 
-function get_food_type_small_element(name){
+function food_btn_element(name){
     var name = translate_food_name(name);
     return "<button class=\"food-button\">" + name + "</button>";
 }
